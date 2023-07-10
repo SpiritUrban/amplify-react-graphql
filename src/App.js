@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 // import logo from './logo.svg';
 import "./App.css";
 import "@aws-amplify/ui-react/styles.css";
-import { API } from "aws-amplify";
+import { API, Storage } from 'aws-amplify';
 import {
   Button,
   Flex,
